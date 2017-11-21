@@ -13,24 +13,17 @@ public class ServiceEmployeeImplTest {
 	private IServiceEmployee serviceEmployee;
 	@Before
 	public void setUp() throws Exception {
-		serviceEmployee=new ServiceEmployeeImpl();
+		
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		serviceEmployee=null;
+		
 	}
 
 	@Test
 	public final void testUpdateEmployeeDetails() {
-		try{
-			boolean isUpdated=serviceEmployee.updateEmployeeDetails(1001,40000);
-			assertTrue("No such mobile",isUpdated==true);
-		}
-		catch(EmployeeException e)
-		{
-			e.printStackTrace();
-		}
+		
 	}
 
 }
