@@ -3,13 +3,18 @@ package com.employee.dao;
 public interface QueryMapperEmployee {
 
 	public static final String INSERT_EMPLOYEE=
-			"INSERT INTO employe VALUES(emp_sequence.nextVal,?,?,?,?)";
+			"INSERT INTO employee VALUES(emp_sequence.nextVal,?,?,?,?)";
 
 	public static final String DELETE_EMPLOYEE=
-			"DELETE FROM employe WHERE employeeid=?";
+			"DELETE FROM employee WHERE employeeid=?";
 	
 	public static final String UPDATE_EMPLOYEE=
-			"UPDATE employe SET salary=? WHERE employeeid=?";
-	public static final String CUREID_EMPLOYEE="SELECT emp_sequence.currVal FROM DUAL";
+			"UPDATE employee SET salary=? WHERE employeeid=?";
 	
+	public static final String EMPID_QUERY_SEQUENCE=
+			"SELECT emp_sequence.CURRVAL FROM DUAL";
+
+	public static final String RETRIVE_ALL_QUERY=
+			"SELECT * FROM employee";
+
 }

@@ -1,5 +1,6 @@
 package com.employee.service;
 
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,15 +12,15 @@ import com.employee.exception.EmployeeException;
 public class ServiceEmployeeImpl implements IServiceEmployee {
 
 	@Override
-	public int insertEmployeeDetails(EmployeeBean employeeBean) throws EmployeeException {
+	public String insertEmployeeDetails(EmployeeBean employeeBean) throws EmployeeException {
 		
-		boolean isItInserted=false;
-		int eid=0;
+		String empSeq=null;
+		
 		IEmployeeDAO employeeDAO=new EmployeeDAOImpl();
 		
-		eid=employeeDAO.insertEmployee(employeeBean);
+		empSeq=employeeDAO.insertEmployee(employeeBean);
 		
-		return eid;
+		return empSeq;
 	}
 
 	@Override
@@ -68,6 +69,14 @@ public class ServiceEmployeeImpl implements IServiceEmployee {
 		
 		return isValid;
 		
+	}
+
+	@Override
+	public List<EmployeeBean> retriveAll() throws EmployeeException {
+		IEmployeeDAO employeeDAO=new EmployeeDAOImpl();		
+		List<EmployeeBean> employeeList=null;
+		employeeList=employeeDAO.retriveAllDetails();
+		return employeeList;
 	}
 	
 }

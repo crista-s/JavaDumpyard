@@ -1,5 +1,6 @@
 package com.employee.pi;
 
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -22,10 +23,12 @@ public class EmployeeMain {
 		
 		byte choice=0;
 		
+		String employeeId=null;
 		String name=null;
 		int salary=0;
 		String doj=null;
 		String dname=null;
+		List<EmployeeBean>employeeList=null;
 		
 		Scanner sc=new Scanner(System.in);
 		
@@ -38,6 +41,7 @@ public class EmployeeMain {
 			System.out.println("1) Insert Employee");
 			System.out.println("2) Delete Employee");
 			System.out.println("3) Update Salary");
+			System.out.println("4) View All Employee");
 			System.out.println("0) Exit");
 			
 			choice=Byte.parseByte(sc.nextLine());
@@ -86,12 +90,10 @@ public class EmployeeMain {
 						
 				employeeBean=new EmployeeBean(name,salary,doj,dname);
 				try{
+					employeeId=serviceEmployee.insertEmployeeDetails(employeeBean);
 					
-					int eid=serviceEmployee.insertEmployeeDetails(employeeBean);
-					
-					if(eid>0)
-						System.out.println("Inserted Successfully details of eid="+eid);
-					
+					if(employeeId!=null)
+						System.out.println("Inserted Successfully! Employee Id is: "+employeeId);
 					
 				}catch(EmployeeException e){
 					logger.error(e.getMessage());
@@ -108,6 +110,8 @@ public class EmployeeMain {
 					
 					if(isDeleted)
 						System.out.println("Deleted successfully!");
+					else
+						System.out.println("Invalid Employee Id");
 					
 				}catch(EmployeeException e){
 					logger.error(e.getMessage());
@@ -142,9 +146,24 @@ public class EmployeeMain {
 					
 					if(isUpdated)
 						System.out.println("Salary Updated!");
+					else
+						System.out.println("Invalid Employee Id");
 					
 				}catch(EmployeeException e){
 					logger.error(e.getMessage());
+				}
+				
+				break;
+				
+			case 4:
+				try{
+					employeeList=serviceEmployee.retriveAll();
+					
+					for(EmployeeBean employee: employeeList)
+						System.out.println(employee);
+					System.out.println("=====================================================");
+				}catch(EmployeeException mpe){
+					logger.error(mpe.getMessage());
 				}
 				
 				break;

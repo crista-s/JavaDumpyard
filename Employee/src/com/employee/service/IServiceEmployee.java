@@ -1,11 +1,13 @@
 package com.employee.service;
 
+import java.util.List;
+
 import com.employee.bean.EmployeeBean;
 import com.employee.exception.EmployeeException;
 
 public interface IServiceEmployee {
 
-	public int insertEmployeeDetails(EmployeeBean employeeBean)
+	public String insertEmployeeDetails(EmployeeBean employeeBean)
 			throws EmployeeException;
 	
 	public boolean deleteEmployeeDetails(int empId)
@@ -13,4 +15,6 @@ public interface IServiceEmployee {
 	
 	public boolean updateEmployeeDetails(int empId,int salary)
 			throws EmployeeException;
+	
+	public List<EmployeeBean> retriveAll()throws EmployeeException;
 }
