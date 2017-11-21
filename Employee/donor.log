@@ -1,0 +1,117 @@
+2017-11-20-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2017-11-20-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2017-11-20-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-ERROR-root      :ORA-00942: table or view does not exist
+
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-ERROR-root      :Invalid name: -7000
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-ERROR-root      :Invalid salary: -90000
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-20-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-00947: not enough values
+
+2017-11-21-main-ERROR-root      :Invalid name: crista
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-00947: not enough values
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-00947: not enough values
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-00947: not enough values
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-02289: sequence does not exist
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-02289: sequence does not exist
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-02289: sequence does not exist
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-02289: sequence does not exist
+
+2017-11-21-main-ERROR-root      :Invalid salary: 0
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-ERROR-root      :Invalid name: amu
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column index
+2017-11-21-main-ERROR-root      :Invalid name: amruthaaa
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column name
+2017-11-21-main-ERROR-root      :Invalid salary: -8907
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column name
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column name
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column name
+2017-11-21-main-ERROR-root      :Invalid name: YFkh
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid column name
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-ERROR-root      :Invalid name: bbb
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :ORA-08002: sequence EMP_SEQUENCE.CURRVAL is not yet defined in this session
+
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-INFO -root      :Connection established.
+2017-11-21-main-ERROR-root      :Invalid name: DAtty
+2017-11-21-main-INFO -root      :Connection established.
